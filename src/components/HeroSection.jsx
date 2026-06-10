@@ -179,7 +179,10 @@ export const HeroSection = () => {
             alt="Pakhi Srivastava"
             className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto border-4 border-primary object-cover shadow-lg"
           /> */}
-          <img src={photo} alt="Profile" />
+          <img src={photo} alt="Profile"
+          alt="Pakhi Srivastava"
+            className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto border-4 border-primary object-cover shadow-lg"
+           />
 
           {/* Name */}
           <h1 className="text-4xl md:text-7xl font-bold tracking-tight">
