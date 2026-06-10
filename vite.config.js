@@ -3,13 +3,23 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path';
 // https://vite.dev/config/
+// export default defineConfig({
+//    base: "/PORTFOLIO/",
+//   plugins: [react() , tailwindcss()],
+//   resolve:{
+//     alias:{
+//       "@": path.resolve(__dirname, "./src"),
+//   },
+// },
+// });
+
 export default defineConfig({
-   base: "/PORTFOLIO/",
-  plugins: [react() , tailwindcss()],
-  resolve:{
-    alias:{
+  base: "/",
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
   },
-},
 });
 
