@@ -6,7 +6,7 @@ const projects = [
     title: "Tether",
     description:
         "Developed an AI-based missing person detection system using OpenCV and face recognition with a Node.js and MongoDB web interface for efficient data management and real-time search.",
-    image: "/projects/project1.png",
+    image: "./projects/project1.png",
     tags: ["Python", "OpenCV", "MongoDB", "Node.js", "JavaScript", "HTML", "CSS"],
     demoUrl: "https://github.com/pakhisrivastava2122/Tether",
     githubUrl: "https://github.com/pakhisrivastava2122/Tether",
@@ -17,7 +17,7 @@ const projects = [
     title: "ChatterBox",
     description:
         "Built a real-time chat application using Node.js, Express, Socket.io, and MongoDB for seamless one-to-one communication.",
-    image: "/projects/image.png",
+    image: "./projects/image.png",
     tags: ["Node.js", "Express.js", "MongoDB", "Socket.io", "JavaScript"],
     demoUrl: "https://github.com/pakhisrivastava2122/ChatterBox",
     githubUrl: "https://github.com/pakhisrivastava2122/ChatterBox",
@@ -28,7 +28,7 @@ const projects = [
     title: "Portfolio",
     description:
         "Developed a responsive personal portfolio using React and Tailwind CSS to showcase projects, skills, and achievements with a modern UI.",
-    image: "/projects/project3.png",
+    image: "./projects/project3.png",
     tags: ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
     demoUrl: "#",
     githubUrl: "#",
