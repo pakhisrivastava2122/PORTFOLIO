@@ -162,6 +162,7 @@
 // };
 
 import { ArrowDown } from "lucide-react";
+import photo from "@/assets/photo.jpg";
 
 export const HeroSection = () => {
   return (
@@ -173,11 +174,12 @@ export const HeroSection = () => {
         <div className="space-y-6">
 
           {/* Profile Image */}
-          <img
+          {/* <img
             src="/PORTFOLIO/projects/photo.jpg"
             alt="Pakhi Srivastava"
             className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto border-4 border-primary object-cover shadow-lg"
-          />
+          /> */}
+          <img src={photo} alt="Profile" />
 
           {/* Name */}
           <h1 className="text-4xl md:text-7xl font-bold tracking-tight">
